@@ -6,3 +6,5 @@ res.sendFile('index.html', {root: './' })
 })
 
 app.listen(1337, () => console.log('Marist Chatter listening on port 1337!'));
+
+app.use(express.static('client/public'));
