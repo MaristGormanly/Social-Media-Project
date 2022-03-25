@@ -1,0 +1,47 @@
+/*Feedback Page*/
+.feedbackHomepage{
+    text-align:center;
+    justify-content: center;
+}
+.feedbackHead{
+    background-color:#553d67;
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+    width: 60%;
+    display:inline-block;
+    border-radius: 20%;
+    margin: 10px;
+}
+.feedbackHead h3{
+    font-style:italic;
+}
+label{
+    color:white;
+}
+textarea{
+    resize: none;
+    height: 20%;
+    width:50%;
+    margin: 5px;
+}
+#feedbackBut{
+    background-color: #553d67;
+    border: 1px solid white;
+    font-weight: 600;
+    position: relative;
+    outline: none;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 45px;
+    width: 130px;
+    opacity: 1;
+    margin: 10px;
+    color: white;
+}
+#hiddenWarning{
+    color:#f64c72;
+    font-weight: bold;
+}

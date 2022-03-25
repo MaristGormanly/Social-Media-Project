@@ -1,0 +1,129 @@
+/*Base CSS for the whole site*/
+#header{
+    text-align: center;
+    color: #f64c72;
+    background-color: #242582;
+    font-size: 300%;
+    margin: 0;
+    padding: 10px;
+    border-radius: 10px;
+}
+.logo{
+    display: inline-block;
+    vertical-align:top;
+    border:#800080;
+    border: radius 2px;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #242582;
+    color: white;
+    margin: 10px;
+   }
+   .nav-links a {
+       color: white;
+   }
+   /* LOGO */
+   .logo {
+    font-size: 32px;
+   }
+   /* NAVBAR MENU */
+   .menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+   }
+   .menu li:hover {
+    background-color: #f64c72;
+    border-radius: 5px;
+    transition: 0.3s ease;
+   }
+   .menu li {
+    padding: 5px 14px;
+   }
+   /* DROPDOWN MENU */
+   .services {
+    position: relative; 
+   }
+   .dropdown {
+    background-color: goldenrod;
+    padding: 1em 0;
+    position: absolute; /*WITH RESPECT TO PARENT*/
+    display: none;
+    border-radius: 8px;
+    top: 35px;
+   }
+   .dropdown li + li {
+    margin-top: 10px;
+   }
+   .dropdown li {
+    padding: 0.5em 1em;
+    width: 8em;
+    text-align: center;
+   }
+   .dropdown li:hover {
+    background-color: #4c9e9e;
+   }
+   .services:hover .dropdown {
+    display: block;
+   }
+.head{
+    display:inline-block;
+}
+#subheader{
+    text-align: center;
+    color: white;
+    background-color: #f64c72;
+    font-size: 100%;
+    margin: 5px;
+    padding: 20px;
+}
+/*#singUpLink{
+    text-align: center;
+    color: #f64c72;
+    background-color: #2f2fa2;
+    border:2px solid #f64c72;
+    font-size: 100%;
+    margin: 5px;
+    padding: 20px;
+}
+#signUpLink a{
+    color:#f64c72
+}*/
+body{
+    background-color: #2f2fa2;
+}
+.pass{
+    -webkit-text-stroke: 1px black;
+    border: 4px solid black;
+    background-color:#f64c72;
+    color: white;
+    text-align: center;
+    width: 50%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    display:inline-block;
+}
+.footer{
+    margin: 30px;
+}
+#copyright{
+    color:white;
+    text-align:center;
+}
+.main{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.link{
+    color:white;
+}
+.link a {
+    color: white;
+}
+
+
+

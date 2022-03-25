@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--Forget Password Page-->
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <title>Forgot Password</title>
+         <!--Connects CSS and JS-->
+        <link rel = "stylesheet" href = "/css/calithenicalCSS.css">
+        <link rel = "stylesheet" href = "/css/signUpCSS.css">
+        <script src="/js/signUp.js"></script>
+    </head>
+    <body class = main>
+        <!--Adds a Nav Bar with Menu-->
+        <nav class = "navbar">
+            <div class = "logo">
+                <a href = http://localhost:1337>
+                    <img src = "/img/calithenical.jpg">
+                </a>
+            </div>
+            <div class = "head">
+                <h1 id = "header">Calithenical</h1>
+            </div>
+            <ul class = "nav-links">
+                    <div class = "menu">
+                        <li><a href = "http://localhost:1337/login">Login</a></li>
+                        <li><a href="http://localhost:1337/feedback">Feedback</a></li>
+                    </div>
+            </ul>
+            <h4 id = "subheader">Join the all new exercise and nutritional social media site today!</h4>
+        </nav>
+            <div class = "signUpPage">
+                <!--Form for sign up information-->
+                <div class = "signUp">
+                    <div class = "logo">
+                        <img src = "/img/calithenical.jpg">
+                    </div>
+                    <div class = "head">
+                        <h1 id = "header">Calithenical</h1>
+                    </div>
+                    <h2>Sign Up!</h4>
+                    <input id = "firstName" class = "signUpField" type = "text" placeholder = "First Name"><br>
+                    <input id = "lastName" class = "signUpField" type = "text" placeholder = "Last Name"><br>
+                    <input id = "email" class = "signUpField" type = "text" placeholder = "Email"><br>
+                    <input id = "password" class = "signUpField" type = "text" placeholder = "Password"><br>
+                    <h3 id = "warning">Please Fill Out All Fields Before Proceeding</h3><br>
+                    <input id = "signUpBtn" type = "button" value = "Sign Up">
+                </div> 
+            </div>
+            <div class = "footer">
+                <h6 id = "copyright">Copyright @ 2022 by Calithenical. All rights reserved.</h6>
+            </div>
+    </body>
+</html>

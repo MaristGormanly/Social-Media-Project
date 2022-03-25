@@ -1,0 +1,83 @@
+/*Login Page*/
+.loginHomepage{
+    text-align:center;
+    justify-content: center;
+}
+.login {
+    border: 4px solid white;
+    background-color:#553d67;
+    color: white;
+    width: 50%;
+    display:inline-block;
+    padding: 10px;
+    margin: 1px;
+    border-radius: 10px;
+}
+.newUser{
+    border: 4px solid white;
+    background-color:#553d67;
+    color: white;
+    width: 50%;
+    display:inline-block;
+    padding: 10px;
+    margin: 1px;
+    border-radius: 10px;
+}
+#resetPass{
+    border: 4px solid white;
+    background-color:#f64c72;
+    color: white;
+    text-align: center;
+    width: 50%;
+    display:inline-block;
+    padding: 10px;
+    margin: 1px;
+    border-radius: 10px;
+}
+#user {
+    font-family: inherit;
+    width: 90%;
+    border: 0;
+    border-bottom: 2px solid white;
+    outline: 0;
+    font-size: 1.3rem;
+    color: white;
+    padding: 10px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+  }
+#password{
+    font-family: inherit;
+    width: 90%;
+    border: 0;
+    border-bottom: 2px solid white;
+    outline: 0;
+    font-size: 1.3rem;
+    color: white;
+    padding: 10px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+}
+#logForm label{
+    text-align: left;
+}
+#loginBut{
+    background-color: #242582;
+    border: 1px solid white;
+    font-weight: 600;
+    position: relative;
+    outline: none;
+    border-radius: 50px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 45px;
+    width: 130px;
+    opacity: 1;
+    margin: 10px;
+    color: white;
+}
+  ::placeholder{
+      color: white;
+  }
