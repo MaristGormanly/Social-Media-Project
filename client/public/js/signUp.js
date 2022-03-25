@@ -10,4 +10,14 @@ window.addEventListener("load",() =>{
             alert("This works as intended!");
         }
     })
+    //Shows the password for users
+    let pass = document.getElementById("password")
+    document.getElementById('showPassword').addEventListener("click",() =>{
+        if(pass.type === "password"){
+            pass.type = "text";
+        }
+        else{
+            pass.type === "password";
+        }
+    })
 })

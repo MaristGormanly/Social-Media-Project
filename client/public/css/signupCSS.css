@@ -47,11 +47,30 @@
     opacity: 1;
     color: #242582;
 }
+#showPassword{
+    background-color: white;
+    border: 1px solid white;
+    font-weight: 600;
+    position: relative;
+    outline: none;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 20px;
+    width: 120px;
+    margin: 5px;
+    opacity: 1;
+    color: #242582;
+}
 h3{
     display: none;
     color: #242582;
 }
 #warning{
     font-weight: bold;
+}
+#showPass{
+    color:white;
 }
 
