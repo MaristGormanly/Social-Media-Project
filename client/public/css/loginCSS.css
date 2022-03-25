@@ -75,8 +75,23 @@
     height: 45px;
     width: 130px;
     opacity: 1;
-    margin: 10px;
     color: white;
+}
+#showPassword{
+    background-color: white;
+    border: 1px solid white;
+    font-weight: 600;
+    position: relative;
+    outline: none;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 20px;
+    width: 120px;
+    margin: 10px;
+    opacity: 1;
+    color: #242582;
 }
   ::placeholder{
       color: white;

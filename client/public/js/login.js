@@ -13,4 +13,13 @@ window.addEventListener("load",() =>{
             alert("This works as intended!");
         }
     })
+    let pass = document.getElementById("password")
+    document.getElementById('showPassword').addEventListener("click",() =>{
+        if(pass.type === "password"){
+            pass.type = "text";
+        }
+        else{
+            pass.type === "password";
+        }
+    })
 })
