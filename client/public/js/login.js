@@ -13,13 +13,10 @@ window.addEventListener("load",() =>{
             alert("This works as intended!");
         }
     })
-    let pass = document.getElementById("password")
-    document.getElementById('showPassword').addEventListener("click",() =>{
-        if(pass.type === "password"){
-            pass.type = "text";
-        }
-        else{
-            pass.type === "password";
-        }
+    let pass = document.getElementById("password");
+    let showPass = document.getElementById("showPassword");
+    showPass.addEventListener("click",() =>{
+        const type = pass.getAttribute("type") === "password" ? "text" : "password";
+        pass.setAttribute("type", type);
     })
 })

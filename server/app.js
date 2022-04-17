@@ -1,5 +1,7 @@
 const express = require('express');
 const app = express();
+var bodyParser = require('body-parser');
+app.use(bodyParser.json({type: 'application/json'}));
 
 //Homepage
 app.get('/', function (req, res) {
@@ -25,6 +27,13 @@ app.get('/signUp', function (req, res) {
 app.get('/feedback', function (req, res) {
     res.sendFile('feedback.html', {root: './client/views' })
 })
+
+let userRoutes = require('./route/userRoutes');
+app.use('/api/user',userRoutes);
+
+let postRoutes = require('./route/postRoutes');
+app.use('/api/post',postRoutes);
+
 app.listen(1337, (
     
 ) => console.log('Marist Chatter listening on port 1337!'));

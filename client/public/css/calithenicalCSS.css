@@ -8,6 +8,9 @@
     padding: 10px;
     border-radius: 10px;
 }
+#header h1{
+    text-decoration: none;
+}
 .logo{
     display: inline-block;
     vertical-align:top;
@@ -22,6 +25,7 @@
     background-color: #242582;
     color: white;
     margin: 10px;
+    box-shadow: 0 0 8px 0 rgba(0,0,0,0.4);
    }
    .nav-links a {
        color: white;
