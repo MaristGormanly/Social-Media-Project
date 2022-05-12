@@ -1,6 +1,5 @@
 ![calithenical](https://user-images.githubusercontent.com/79229838/168113409-15347958-362f-469b-a90f-f01a60cedda4.jpg)
 
-## Introduction
 Welcome to Calithencial! Calithencial is a new revolutionary fitness and nutritional forum where you can share you workout routines, diets and healthy recipes!
 
 Calithenical allows their users to login from a list of users connected directly to the back end. Our key feature is posts which allows users to create and share their new fitness discoveries on thier fitness journey.
