@@ -1,14 +1,3 @@
-README including
-a. Introduction to your program and a high level description of what it does.
-Impress here! This is your opportunity to inspire others to use / test / develop!
-b. Installation instructions Make sure to include
-i. Dependencies
-ii. Commands to run
-iii. Database setup / configuration
-c. Development notes: What works, what needs improvement, any future plans?
-2. User Documentation: Included instructions on how to perform major functions on the
-platform from a users perspective. Include screenshots where appropriate!
-
 ![calithenical](https://user-images.githubusercontent.com/79229838/168113409-15347958-362f-469b-a90f-f01a60cedda4.jpg)
 
 ## Introduction
