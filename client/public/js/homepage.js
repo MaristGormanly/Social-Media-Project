@@ -8,7 +8,7 @@ window.addEventListener("load",() =>{
     getFeed();
 })
 
-
+//Gets post feed for users
 function getFeed(){
     fetch('/api/post').then(function(response){
        
@@ -55,6 +55,7 @@ function getFeed(){
     })
 }*/
 
+//Adds a post with the given title and post body
 function addPost(){
     let title = document.getElementById('titleInput').value;
     let postBody = document.getElementById('postBodyInput').value; 
@@ -75,6 +76,7 @@ function addPost(){
     console.log("4: Post added");
 }
 
+//Triggers the addPost() function to create a new post
 var el = document.getElementById('postSubmit');
 el.addEventListener('click', () =>{
     console.log("Click works");
