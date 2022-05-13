@@ -7,14 +7,16 @@ let userService = require('../service/userService');
 let users = [];
 
 //calls on model to create user
-let james = User.createUser("James", "Thompson", "jwt@gmail.com","jjjones","pass123");
+let james = User.createUser("James", "Thompson", "jwt@gmail.com","JJJones","pass123");
 let hamish = User.createUser("Hamish", "Swanson", "HSwan@yahoo.com","SwansHam","Iliketurtles");
 let john = User.createUser("John", "Doe","JD@hotmail.com","DoetheDeer","NJ1234!");
+let alien = User.createUser("E","T","outofthisworld@aol.com","QuirkyExterr1");
 
 //add a user to the array
 users.push(james);
 users.push(hamish);
 users.push(john);
+users.push(alien);
 
 //gets the request for this call and then sends a response
 exports.getAllUsers = (req,res) => {

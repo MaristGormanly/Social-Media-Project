@@ -7,7 +7,7 @@
         <!--Connects CSS and JS-->
         <link rel = "stylesheet" href = "/css/calithenicalCSS.css">
         <link rel = "stylesheet" href = "/css/loginCSS.css">
-        <script src="js/login.js"></script>
+        <link rel="icon" type="image/x-icon" href="http://localhost:1337/img/calithenical.jpg">
     </head>
     <body class = main>
         <!--Adds a Nav Bar with Menu-->
@@ -29,14 +29,17 @@
             <h4 id = "subheader">Join the all new exercise and nutritional social media site today!</h4>
         </nav>
         <div class = "loginHomepage">
+            <div id = "loginConfirm">
+
+            </div>
             <div id = "resetPass" style = "display:none">
                 <h2>INVALID PASSWORD</h2>
                 <h3>Reminder: Passwords are case sensitive</h3>
                 <h3>Forgot your password? <a href = "http://localhost:1337/forgotPassword">Reset Password</a></h3>
             </div>
-            <div class = "login">
+            <div id = "login">
                 <!--Form for user login information-->
-                <form name = "loginForm" id = "logForm">
+                <!--<form name = "loginForm" id = "logForm">
                     <h2>Log In</h2>
                     <label>Username:</label><br>
                     <input type = "text" id = "user" placeholder="Enter Username Here"><br>
@@ -45,7 +48,7 @@
                     <input id = "showPassword" type="button" value = "Show/Hide Password"/><br>
                     <input type = "button" id = "loginBut" value = "Login"><br>
                     <a id = "forPas" class = "link" href = "http://localhost:1337/forgotPassword">Forgot Password?</a> 
-                </form>
+                </form>-->
             </div>
             <!--Option to signup for new users-->
             <div class = "newUser">
@@ -57,5 +60,6 @@
         <div class = "footer">
             <h6 id = "copyright">Copyright @ 2022 by Calithenical. All rights reserved.</h6>
         </div>
+        <script src="js/login.js"></script>
     </body>
 </html>

@@ -7,7 +7,7 @@
          <!--Connects CSS and JS-->
         <link rel = "stylesheet" href = "/css/calithenicalCSS.css">
         <link rel = "stylesheet" href = "/css/homepageCSS.css">
-        <!--<script src="../public/js/clientSide.js"></script>-->
+        <link rel="icon" type="image/x-icon" href="http://localhost:1337/img/calithenical.jpg">
     </head>
     <body class = main>
         <!--Adds a Nav Bar with Menu-->
@@ -33,6 +33,18 @@
             <div class = "paragraph">
                 <p>Welcome to Calithenical. The all new social media platform for the encouragement of health and fitness. Share recipies, workout routines and mental health advice to friends and family. Empower your fitness journey with Calithenical!</p>
             </div>
+            <div class="container">
+                <h3>Create a Post</h3>
+                <h4>Title</h4>
+                <input type="input" class="form-control form-control-lg" id="titleInput" name="titleInput" />
+                <h4>Description</h4>
+                <textarea class="form-control form-control-lg" id="postBodyInput" name="postBodyInput"></textarea>
+                <br />
+                <button class="btn btn-primary btn-lg btn-block" id="postSubmit" name="postSubmit" value="Post!">Post!</button>
+                <hr />
+                
+                <div id="feed">This is where the feed will go!</div>
+            </div>
             <div id = "homeNEWUSER" class = "box">
                 <h2>New User?</h2>
                 <a class = "link" href = "http://localhost:1337/signUp">Click here to sign up!</a>
@@ -47,5 +59,6 @@
             <h1 id = "slogan">Grow healthy together.</h1><br>
             <h6 id = "copyright">Copyright @ 2022 by Calithenical. All rights reserved.</h6>
         </div>
+        <script src="js/homepage.js"></script>
     </body>
 </html>
