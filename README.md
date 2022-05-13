@@ -10,7 +10,7 @@ First to run the commands I use [Git Bash](https://git-scm.com/) on the file fol
 Make sure to clone the repository like so:
 
 ```bash 
-git clone https://github.com/MaristGormanly/Social-Media-Project
+git clone https://github.com/MaristGormanly/Social-Media-Project.git
 ```
 You will also need to download [node.js](https://nodejs.org/en/)
 ### Dependencies
