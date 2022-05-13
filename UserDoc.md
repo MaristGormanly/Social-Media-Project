@@ -14,4 +14,5 @@ You will also be able to browse other users feed as well.
 ### Logging In
 In order to log in you can select from the list of buttons which represent exisiting users:
 ![Screenshot (46)](https://user-images.githubusercontent.com/79229838/168189571-a1491b1c-4ee6-4aa3-86ca-5d7f29f81841.png)
+
 Then after selecting a user, you will be greeted by a bit of text welcoming you as the user!
